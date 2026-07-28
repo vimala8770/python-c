@@ -1,0 +1,25 @@
+#variable
+number = 25
+#constant-style name
+max_value = 100
+#function name
+def display():
+ print("function called successfully!")
+  #class name
+class Student:
+   def __init__(self):
+     self.name = "vimala"
+  #identifier with an underscore
+user_name = "sabika"
+  # create an object 
+student = Student()
+  #print all identifiers
+print("variable (number):",number)
+print("constant-style name(max_value):",max_value)
+print("class name :",student.name)
+print("identifier with an underscore(user name):",user_name)
+print("function value (display):",display())
+#call the function
+display() 
+
+
