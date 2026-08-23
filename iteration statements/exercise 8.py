@@ -1,0 +1,13 @@
+n = int(input("Enter N: "))
+
+i = 1
+
+while i <= n:
+    print(i)
+    i = i + 1
+output:
+    Enter N: 4
+1
+2
+3
+4
